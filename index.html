@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<!-- default element content and attributes are in english -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- spesify the character encoding for the html doc -->
+
+    <title></title>
+    <meta name="decsription" content="">
+    <meta name="author" content="BelarusAndy">
+
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+
+</head>
+
+<body>
+
+    
+
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    defaultExtension: 'js'
+                }
+            }
+        })
+        System.import('app/startup.js').catch((reason) => console.error(reason));
+    </script>
+</body>
+
+</html>
