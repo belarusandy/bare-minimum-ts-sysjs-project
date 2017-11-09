@@ -5,7 +5,7 @@ export class Startup {
 
         
 
-        console.log('Text app started');
+        console.log('Minimum app started');
     }
 };
 
